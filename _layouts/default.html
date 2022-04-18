@@ -19,14 +19,17 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
+          <!-- 로고, 사이트명-->
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
+          <!-- 사이트 정보-->
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav>
+            <!--메뉴 리스트 추가-->
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
@@ -35,7 +38,12 @@
     </div>
 
     <div id="main" role="main" class="container">
+      <!-- 블로그파일 todo: 재확인 -->
       {{ content }}
+      <!-- 테스트 division 추가-->
+      <div id="side_left" role="sub" class="container">
+        {{ content }}
+      </div>
     </div>
 
     <div class="wrapper-footer">
