@@ -12,6 +12,15 @@ description: Noob Unity App. Developer from Somewhere
 avatar: https://github.com/IdamJAppa/idamjappa.github.io/raw/master/images/logo.png
 
 
+# 이담아빠 블로그 커스터마이징 변수 22.04.18
+category_dir: category/
+tag_dir: tag/
+
+#한페이지당 표시하고자하는 포스트 최대개수
+paginate: 3
+
+#
+
 #
 # Flags below are optional
 #
