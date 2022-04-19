@@ -1,3 +1,4 @@
+# minimal_mistakes 블로그 테마 설정파일 
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -101,7 +102,10 @@ analytics:
 
 
 # Site Author
-# 띄어쓰기 양식 중요함 
+# 띄어쓰기 양식 중요함
+# 추가 author 생성하고싶을 경우
+# _data 폴더에 "authors.yml"파일 생성해서
+# 아래와 같은 양식으로 작성해서 저장
 author:
   name             : "이담아빠"
   avatar           : "/assets/images/logo.png"

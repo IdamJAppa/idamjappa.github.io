@@ -1,4 +1,5 @@
 # main links
+# 블로그 우측상단에 메뉴 등록파일
 main:
     - title: "Home"
       url: /index.html
