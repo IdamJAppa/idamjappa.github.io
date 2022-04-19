@@ -20,10 +20,10 @@ title                    : "이담아빠 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "이담아빠"
-description              : "Noob Developer"
+description              : "Noob Developer, Forever."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "idamjappa.github.io"
+repository               : "IdamJAppa/BlogComments"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -84,7 +84,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/log.png"
+og_image                 : "/assets/images/logo.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "이담아빠"
-  avatar           : "/assets/images/log.png"
+  avatar           : "/assets/images/logo.png"
   bio              : "Noob Developer, Forever."
   location         : "Somewhere"
   email            :
