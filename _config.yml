@@ -22,8 +22,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "이담아빠"
 description              : "Noob Developer, Forever."
-url                      : https://idamjappa.github.io
-baseurl                  : "/"
+url                      : https://idamjappa.github.io #브라우저에서 실제 접속하는 경로
+baseurl                  : "/"                         #Github에서 설정한 blog 시작지점 '/idamjappa.github.io' repository 자체임
 repository               : "idamJAppa/BlogComments"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"

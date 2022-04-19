@@ -36,7 +36,8 @@ Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your
 - UI localized text in English (default), Arabic (عربي), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hebrew, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Norwegian (Norsk), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
 
 ## Demo Pages
-
+For even more demo pages check the [posts archive][year-archive].
+[year-archive]: {{ "/year-archive/" | relative_url }}
 ---
 
 ## Credits
