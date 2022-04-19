@@ -3,8 +3,8 @@
 main:
     - title: "Home"
       url: /index.html
-    - title: "Posts"
-      url: /_posts
+    - title: "Sample Posts"
+      url: /_layouts/posts.html 
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
