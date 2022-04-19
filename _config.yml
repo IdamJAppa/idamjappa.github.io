@@ -110,10 +110,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "idamjappa@gmail.com"
+      url: "idamjappa@gmail.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/idamjappa/"       
+      url: "https://github.com/idamjappa/"       
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -133,7 +133,7 @@ footer:
   links:
      - label: "GitHub"
        icon: "fab fa-fw fa-github"
-        url: "https://github.com/idamjappa/"  
+       url: "https://github.com/idamjappa/"  
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   # url:
