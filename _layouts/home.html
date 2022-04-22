@@ -1,9 +1,12 @@
 ---
 layout: archive
+title : "공부블로그"
+<!-- _layouts 폴더의 archive.html 호출-->
 ---
-
+<!--index.html 호출, 아무것도 없음.-->
 {{ content }}
 
+<!-- 최근 포스트 제목 호출-->
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
 {% if paginator %}
@@ -14,9 +17,13 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
+<!-- 포스트 리스트를 가져옴-->
   {% for post in posts %}
+  <!-- 포스트 리스트를 include 폴더의 archive-single.html로 가져옴-->
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
 </div>
-
+<!-- include 폴더의 paginator.html 불러옴-->
 {% include paginator.html %}
+
+<!--home.html 모두 수행했으므로 default.html로 감-->

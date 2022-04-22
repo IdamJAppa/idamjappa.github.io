@@ -59,6 +59,7 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
+    {% comment %} _config.yml에 댓글(commetns)설정값을 참고해서 comments.html을 추가하는 옵션 {% endcomment %}
     {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}

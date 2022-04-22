@@ -8,27 +8,39 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
+
+<!-- _config.yml 의 locale 값 가져옴-->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+
+<!-- html head쪽에 _includes 폴더의 head.html /head/custom.html 넣음.-->
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
+  <!-- default.html 호출한 이전 파일에서 설정된 layout을 가지고 class명을 지정하고 includes 폴더 파일 includes.-->
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached browser-upgrade.html %}
+  <!-- 이 위쪽까지는 브라우저의 탭 이름 등을 확인/설정하는 구간 파비콘 설정 등-->
+
+  <!-- 블로그 마스터 헤드 설정 -->
     {% include_cached masthead.html %}
 
+  <!-- 블로그 메인페이지 화면 그리기 -->
     <div class="initial-content">
+      <!-- archive.html로 올라감-->
       {{ content }}
     </div>
-
+      <!-- archive.html 다 수행하고 돌아옴-->
+      
+      <!-- config.yml에서 search 옵션 true시 수행-->
     {% if site.search == true %}
       <div class="search-content">
         {% include_cached search/search_form.html %}
       </div>
     {% endif %}
-
+      <!-- footer 그리기-->
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}

@@ -1,5 +1,7 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
-
+<!-- _config.yml의 'logo' 속성값을 가져와서 마스터 헤더에 로고 삽입
+     로고 없을 경우, 'title' 속성값만 나옴
+-->
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -11,6 +13,7 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
+        <!--마스터헤드 오른쪽 메뉴들 표시. _data 폴더의 navigation.yml에서 지정하는 메뉴들임-->
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
@@ -18,6 +21,8 @@
             </li>
           {%- endfor -%}
         </ul>
+
+        <!-- _config.yml 파일에 search 속성이 true일 경우 활성-->
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>

@@ -1,5 +1,8 @@
+<!-- sidebar.html을 호출한 페이지의 속성이나 layout이 author_profile이거나 페이지가 sidebar일 경우 수행-->
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
+    <!-- sidebar에 sticky 속성부여-->
+    <!-- author-profile.html 호출-->
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
