@@ -2,7 +2,7 @@
 layout: posts
 title: "Blog] Jekyll MMinial테마 플로우"
 date: "2022-04-22"
-categories: []
+categories: [Jekyll]
 tags: []
 ---
 
