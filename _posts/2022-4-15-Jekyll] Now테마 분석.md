@@ -1,4 +1,5 @@
 ---
+layout: posts
 title : "Jekyll] Jekyll-now 테마 구조 분석"
 categories : [Jekyll]
 ---

@@ -1,4 +1,5 @@
 ---
+layout: posts
 title : "VSCode] Github연동된 VSCode에서 소스 커밋"
 categories : [VSCode]
 ---
