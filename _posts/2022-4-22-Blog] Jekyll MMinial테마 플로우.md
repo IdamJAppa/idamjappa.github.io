@@ -22,12 +22,12 @@ tags: []
     >>>> head.html, cusom.html 모두 처리 후 _includes 폴더의 
          skip-links.html, browser-upgrade.html, masthead.html 호출
     >>>> default.html 내에서 메인페이지의 head, master head 완성
-    >>>> liquid문법 '{{content}}' 통해 default.html을 호출한 archive.html로 돌아감
+    >>>> liquid문법 'content' 통해 default.html을 호출한 archive.html로 돌아감
     >>> archive.html에서 sidebar.html 호출
     >>> sidebar.html에서 author-profile.html 호출
-    >>> archive.html에서 liquid문법 '{{content}}' 통해 archive.html을 호출한 home.html로 돌아감
+    >>> archive.html에서 liquid문법 'content' 통해 archive.html을 호출한 home.html로 돌아감
     >>> archive.html 종료 
-    >> home.html에서 liquid문법 '{{content}}' 통해 home.html을 호출한 index.html로 돌아감
+    >> home.html에서 liquid문법 'content' 통해 home.html을 호출한 index.html로 돌아감
     > index.html 종료 (아무것도 없음)
     >> home.html로 돌아와서 '/_post'폴더의 .md 포스트들을 archive-single.html에 넣어서 불러옴
     >> paginator.html 실행
