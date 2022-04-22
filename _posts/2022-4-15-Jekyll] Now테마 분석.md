@@ -8,22 +8,22 @@ categories : [Jekyll]
     https://jekyllrb-ko.github.io/
 
 1. 골격(Root 아래 5개 카테고리 구성)
-    > / (root)
-    >> _includes
-    >> _layouts
-    >> _posts
-    >> _sass
-    >> images
+    > / (root)  
+    >> _includes  
+    >> _layouts  
+    >> _posts  
+    >> _sass  
+    >> images  
 
-2. 세부항목
-    1> _includes<br>
-    2> _layouts<br>
+2. 세부항목  
+    1> _includes  
+    2> _layouts  
         > default.html  
-            >> 상단 메뉴바 기본 Template HTML<br>
+            >> 상단 메뉴바 기본 Template HTML  
             * baseurl, url 등의 값은 site.'사용할 객체명'을 통해 _config.yml에서 가져온다.
-    3> _posts<br>
-    4> _sass<br>
-    5> _images<br>
+    3> _posts  
+    4> _sass  
+    5> _images  
 
 
 * site.data.[파일명]

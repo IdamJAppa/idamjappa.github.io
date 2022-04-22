@@ -12,14 +12,15 @@ categories : [VSCode]
     - 설치 후, 기본정보 설정
         > git-cmd.exe 실행
         > 사용자 이메일 / 이름 설정
-            >> git config --global user.email "이메일주소"
+            >> git config --global user.email "이메일주소"  
             >> git config --global user.name "사용자이름"
             
-    * Portable Git을 설치 해봤는데, VsCode가 못 가져오는 것같다. 추가 확인필요함
+    * Portable Git을 설치 해봤는데, VsCode가 못 가져오는 것같다.  
+      추가 확인필요함
 
 3. VsCode 실행
-    - View >> SCM(Source Control Manager) 실행
-       [Ctrl. + Shift + G]
+    - View >> SCM(Source Control Manager) 실행  
+      [Ctrl. + Shift + G]
 
     - 'Clone Reppsitory' 클릭
     - VsCode와 연결을 원하는 내 Reposity URL 입력
