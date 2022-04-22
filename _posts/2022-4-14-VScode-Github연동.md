@@ -11,7 +11,7 @@ categories : [VSCode]
 
     - 설치 후, 기본정보 설정
         > git-cmd.exe 실행
-        > 사용자 이메일 / 이름 설정
+        > 사용자 이메일 / 이름 설정  
             >> git config --global user.email "이메일주소"  
             >> git config --global user.name "사용자이름"
             

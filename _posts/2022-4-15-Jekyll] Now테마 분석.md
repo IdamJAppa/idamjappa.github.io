@@ -4,16 +4,16 @@ title : "Jekyll] Jekyll-now 테마 구조 분석"
 categories : [Jekyll]
 ---
 
-0. Jekyll 한글가이드 문서 링크
+0. Jekyll 한글가이드 문서 링크  
     https://jekyllrb-ko.github.io/
 
-1. 골격(Root 아래 5개 카테고리 구성)
-    > / (root)  
-    >> _includes  
-    >> _layouts  
-    >> _posts  
-    >> _sass  
-    >> images  
+1. 골격(Root 아래 5개 카테고리 구성)  
+     / (root)  
+        >> _includes  
+        >> _layouts  
+        >> _posts  
+        >> _sass  
+        >> images  
 
 2. 세부항목  
     1> _includes  
