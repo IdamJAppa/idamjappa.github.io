@@ -30,6 +30,3 @@ tags : [VSCode]
     >> home.html 종료
     >>>> 미종료된 default.html로 이동
     >>>> footer.html, scripts.html 수행후 페이지 완성
-
-
-      

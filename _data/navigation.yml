@@ -4,9 +4,7 @@ main:
     - title: "Home"
       url: /index.html
     - title: "Posts"
-      url: /tag-archive/    #기본테마 태그베이스 포스트 사용     
-    - title: "About"
-      url: /about/
+      url: /year-archive/    #기본테마 연단위 베이스 포스트 사용     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
 
