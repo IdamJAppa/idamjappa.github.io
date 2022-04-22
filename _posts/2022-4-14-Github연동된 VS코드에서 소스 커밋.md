@@ -1,6 +1,6 @@
 ---
 title : "VSCode] Github연동된 VSCode에서 소스 커밋"
-tags : [VSCode]
+categories : [VSCode]
 ---
 1. VSCode 실행
 2. GitHub Repository와 연동된 폴더 Open
