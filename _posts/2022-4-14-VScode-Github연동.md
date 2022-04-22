@@ -1,5 +1,5 @@
 ---
-title : "VSCode-Github연동법"
+title : "VSCode] VSCode-Github연동법"
 ---
 1. VsCode 설치
 
