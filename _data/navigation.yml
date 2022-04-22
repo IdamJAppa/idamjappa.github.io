@@ -3,8 +3,8 @@
 main:
     - title: "Home"
       url: /index.html
-    - title: "Sample Posts"
-      url: /year-archive/      
+    - title: "Posts"
+      url: /tag-archive/    #기본테마 태그베이스 포스트 사용     
     - title: "About"
       url: /about/
   # - title: "About"
