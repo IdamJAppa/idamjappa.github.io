@@ -1,7 +1,11 @@
 ---
-title : "Blog] Jekyll MMinial테마 플로우"
-tags : [VSCode]
+layout: posts
+title: "Blog] Jekyll MMinial테마 플로우"
+date: 
+categories: []
+tags: []
 ---
+
 0. 전제
     - Jekyll Minimal-Mistake 테마가 로컬 혹은 Github내에 디플로이 된 상태
     - 기본 블로그 설정(_config.yml) 완료상태
