@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title : "VSCode] VSCode-Github연동법"
 categories : [VSCode]
 ---

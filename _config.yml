@@ -284,8 +284,8 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: post #_posts 폴더를 가리킴
+      path: ""   # 빈 문자열은 프로젝트의 모든파일을 의미함.
+      type: posts # 옵션임.type은 pages, posts, drafts 또는 사이트 내 collection이름이 사용가능하다.
     values:
       layout: single
       author_profile: true

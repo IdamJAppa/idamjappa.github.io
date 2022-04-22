@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title : "Jekyll] Jekyll-now 테마 구조 분석"
 categories : [Jekyll]
 ---

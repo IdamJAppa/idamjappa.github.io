@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title: "Jekyll] MMinial테마 플로우 따라가봄"
 date: "2022-04-22"
 categories: [Jekyll]
