@@ -285,7 +285,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: post #_posts 폴더를 가리킴
     values:
       layout: single
       author_profile: true
