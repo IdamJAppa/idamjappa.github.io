@@ -3,7 +3,7 @@ layout: single
 title: "Gradle] Gradle버전에따른 build.gradle 수정
 date: "2022-06-27"
 categories: [Gradle, SpringBoot]
-tags: []
+tags: [Gradle]
 ---
 
 Gradle 7.0 이상버전 부터 
