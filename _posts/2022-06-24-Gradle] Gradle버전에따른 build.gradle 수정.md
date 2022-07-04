@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Gradle] Gradle버전에따른 build.gradle 수정
+title: "Gradle] Gradle버전에따른 build.gradle 수정"
 date: "2022-06-27"
 categories: [Gradle, SpringBoot]
 tags: [Gradle]
